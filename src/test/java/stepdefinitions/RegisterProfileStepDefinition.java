@@ -21,10 +21,10 @@ public class RegisterProfileStepDefinition {
 
     // the link to the prodect description page. Removing the spaces and "/" from the name and replacing them with "-" so the link can be accessed
     String productLink = homePageLink + product.replace("/", "-").replace(" ", "-") + ".html";
-    String firstName = "John",
-            lastName = "Cena",
-            emailAddress = "JC1234@wwe.com",
-            password = "I@MJohnCena";
+    String firstName = "Bruce",
+            lastName = "Wayne",
+            emailAddress = "batman2@batcave.com",
+            password = "I@MB@tm@n";
 
     @Given("i opened product description page url")
     public void i_opened_product_description_page_url() {
